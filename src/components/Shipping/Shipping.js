@@ -3,7 +3,9 @@ import React from 'react';
 const Shipping = () => {
     return (
         <div>
-            <h2>This is shipping page.</h2>
+            <h2>Shipping Completed.</h2>
+            <p>Delivery On the way</p>
+            <p><small>Coming soon....</small></p>
         </div>
     );
 };
