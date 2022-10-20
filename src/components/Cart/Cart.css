@@ -3,3 +3,10 @@
     top: 0;
     padding: 30px 20px;
 }
+.btn-clear {
+    padding: 5px;
+    background-color: rgb(165, 35, 35);
+    color: #ffff;
+    border: none;
+    border-radius: 5px;
+}

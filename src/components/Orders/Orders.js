@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './Orders.css'
 import { Link, useLoaderData } from 'react-router-dom';
 import { deleteShoppingCart, removeFromDb } from '../../utilities/fakedb';
 import Cart from '../Cart/Cart';
@@ -36,7 +37,7 @@ const Orders = () => {
             <div className='cart-container'>
                 <Cart clearCart={clearCart} cart={cart}>
                     <Link to='/shipping'>
-                        <button>Proceed shipping</button>
+                        <button className='btn-proceed'>Proceed shipping</button>
                     </Link>
                 </Cart>
             </div>
